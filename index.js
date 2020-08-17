@@ -4,7 +4,6 @@
     let timeGap = 3000;
     
     keepClickingSeeMoreRequestsButton();
-    //     startCancellingRequests();
 
     function keepClickingSeeMoreRequestsButton() {
         let seeMoreRequestsButtonSelector = ".pam.uiBoxLightblue._5cz.uiMorePagerPrimary";
@@ -26,7 +25,6 @@
 
         var divs = document.querySelectorAll(selector);
 
-        //         for (let i = 0; i < 5; i++) {
         for (let i = 0; i < divs.length; i++) {
 
             setTimeout(()=>{
